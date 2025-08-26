@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 32px;
+        background: white;
+        border-bottom: 1px solid;
+        position: sticky;
+        top: 0;
+        z-index: 20;
+       }
+       .head .logo{
+        font-weight: bold;
+        font-size: 20px;
+       }
+       .head .menu{
+        display: flex;
+        gap:20px
+       }
+       .head .menu a{
+        text-decoration: none;
+        color: #333;
+       }
+        .parent{
+            position: relative;
+        }
+       
+        h1{
+            position: absolute;
+            bottom: 10px;
+        }
+        .p2{
+            padding-top: 80px;
+        }
+        .p3{
+            margin-left: 200px;
+            display: inline-block;
+            padding:20px;
+        }
+        .p4{
+            display: inline-block;
+            font-size: 20px;
+        }
+        .a{
+            padding-top: 80px;
+
+
+        }
+        .a2{
+            margin-left: 200px;
+            display: inline-block;
+            padding: 20px;
+            
+        }
+        h4{
+            font-size: large;
+            margin-left: 50px;
+        }
+        .a3{
+            display: inline-block;
+        }
+        .c{
+            padding: 50px;
+            margin-left: 150px;
+        }
+        form,input{
+            width:100%;
+            color:black;
+            padding:10px;
+            border-radius: 5px;
+        }
+        button{
+            padding: 10px;
+            background-color:lightgray;
+        }
+        .x{
+            background-color:lightgray;
+            color: black;
+            padding:20px;
+            padding-left: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+       <div class="logo">
+            Gourmet  au catering
+        </div>
+        <div class="menu">
+           <a href="#about">About</a>
+           <a href="#menu">Menu</a>
+           <a href="#contact">Contact</a>       
+        </div>
+   </div>
+
+   
+
+        <div class="parent" id="logo">
+            <div class="t1">
+               <img src="https://www.w3schools.com/w3images/hamburger.jpg"width="100%">
+               <h1>Le Catering</h1>
+            </div>
+        </div>
+        <div class="p2" id="about">
+               <div class="p3">
+                   <img src="https://www.w3schools.com/w3images/tablesetting2.jpg"width="400">
+              </div>
+            <div class="p4">
+                <h2>About Catering</h2>
+                <h3>Tradition since 1889</h3>
+                <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum <br>dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<br> nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in<br> reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla <br>pariatur.We only use seasonal ingredients.</p>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui <br>officia deserunt mollit anim id est laborum consectetur adipiscing<br> elit, sed do eiusmod temporincididunt ut labore et dolore magna <br>aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<br> laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+    
+        </div><hr>
+        <div class="a" id="menu">
+            <div class="a2">
+                <h4>Our Menu</h4>
+                <h2>Bread Basket</h2>
+                <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+                <h2>Honey Almond Granola with Fruits</h2>
+                <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                <h2>Belgian Waffle</h2>
+                <p>Vanilla flavored batter with malted flour 7.5</p>
+                <h2>Scrambled eggs</h2>
+                <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                <h2>Blueberry Pancakes</h2>
+                <p>With syrup, butter and lots of berries 8.50</p>
+            </div>
+            <img src="https://www.w3schools.com/w3images/tablesetting.jpg"width="400">
+        </div><hr>
+        <div class="c" id="contact">
+            <h2>Contact</h2>
+            <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. <br>Do not hesitate to contact us.</p>
+            <h4>Catering Service, 42nd Living St, 43043 New York, NY</h4>
+            <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+            <form>
+                <input type="text" placeholder="Name"><hr>
+                <input type="text" placeholder="How many people"><hr>
+                <input type="date" placeholder="16-11-2020,20:00"><hr>
+                <input type="text" placeholder="Message\Special reqorments"><hr>
+                <button>send message</button>
+            </form>
+        </div>
+        <div class="x"> 
+            <h3>powere by<a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></h3>
+        </div> 
+
+</body>
+</html>
